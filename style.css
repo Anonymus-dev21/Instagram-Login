@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"instagram font";
+    src: url(/Fonts/KingsmanDemo-1GVgg.ttf) format(truetype);
+    font-weight: 600;
+}
+.loginpage{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contenedorregister{
+    width: 500px;
+    padding: 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#4e4e4e;
+    font-size: 14px;
+}
+h1{
+    font-family: "instagram font";
+    letter-spacing: 3px;
+    font-size: 45px;
+    margin: 0 0 45px;
+    font-weight: 600;
+    color: black;
+}
+.btn__facebook__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn__facebook{
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px 10px;
+    background-color: rgb(24, 140, 242);
+
+}
+.btn__facebook i{
+    font-size: 19px;
+    color: white;
+    padding: 5px;
+    transform: translateY(2px);
+}
+.btn__facebook a{
+    font-size: 14px;
+    padding: 0 5px;
+    color: white;
+    text-decoration: none;
+    transform: translateY(50px);
+}
+
+.division{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line1{
+    height: 1px;
+    width: 100%;
+    background-color: #686767;
+    display: block;
+}
+.o{
+    font-size: 18px;
+    font-weight: 500;
+    transform: translateY(-2px);
+    margin: 0 10px;
+}
+.line2{
+    height: 1px;
+    width: 100%;
+    background-color: #686767;
+    display: block;
+}
+
+.input__box{
+    margin: 10px 0;
+}
+.input__box input{
+    padding: 10px 3px;
+    font-size:14px;
+}
+
+.input__box input::placeholder{
+    width: 100%;
+    font-size: 11px;
+}
+
+.forgotten__password__container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin:15px 0px 20px 25px;
+}
+.forgotten__password a{
+    color:  rgb(0, 149, 246);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn__submit{
+    padding: 3px 70px;
+    margin-bottom: 25px ;
+    background-color: rgb(0, 149, 246);
+    border-color: rgb(0, 149, 246);
+}
+.btn__submit span{
+    font-weight: 600;
+    font-size: 15px;
+}
+.Registrate a{
+    text-decoration: none;
+    color: rgb(24, 135, 250);
+    font-weight: 600;
+}
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.logo p{
+    text-align: center;
+}
+.logo__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo span{
+    color: transparent;
+    font-weight: 700;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    margin-bottom: 70px;
+}
+.logo p{
+    font-size: 10px;
+    color: #686767;
+    margin:0;
+    padding: 0;
+}
+
+
+.box__conteiner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    font-size: 12px;
+    margin:0 5px;
+}
+.box a{
+    text-decoration: none;
+    color:  #686767;
+}
+.box a:hover{
+    text-decoration: underline;
+}

@@ -131,7 +131,6 @@ h1{
     width: 100%;
     background-color: #cecece;
     display: block;
-    box-shadow: #4e4e4e 0px 1px 20px;
 }
 .o{
     color: #818181;
@@ -146,7 +145,6 @@ h1{
     width: 100%;
     background-color: #cecece;
     display: block;
-    box-shadow: #000000 0px 1px 20px;
 }
 
 .input__box{

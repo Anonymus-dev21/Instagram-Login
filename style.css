@@ -32,7 +32,7 @@
     
 }
 .preloader__content__meta{
-    transform: translatey(200px);
+    transform: translatey(220px);
     text-align: center;
     width: 100%;
     display: flex;
@@ -42,7 +42,7 @@
 iframe{
     display: none;
 }
-@media only screen and (min-width:425px){
+@media only screen and (min-width:350px){
     .preloader__content{
         width: 30%;
     }
@@ -53,13 +53,15 @@ iframe{
     }
 }
 .meta{
+    text-align: center;
     color: transparent;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
 }
 .preloader__content__meta p{
+    text-align: center;
     font-size: 10px;
     color: #686767;
     margin:0;
@@ -127,12 +129,12 @@ h1{
 .line1{
     height: 1px;
     width: 100%;
-    background-color: #686767;
+    background-color: #cecece;
     display: block;
     box-shadow: #4e4e4e 0px 1px 20px;
 }
 .o{
-    color: #686767;
+    color: #818181;
     font-size: 18px;
     font-weight: 500;
     transform: translateY(-2px);
@@ -142,7 +144,7 @@ h1{
 .line2{
     height: 1px;
     width: 100%;
-    background-color: #5e5c5c;
+    background-color: #cecece;
     display: block;
     box-shadow: #000000 0px 1px 20px;
 }
@@ -151,17 +153,17 @@ h1{
     margin: 10px 0;
 }
 .input__box input{
-    padding: 10px 3px;
+    padding: 7px 5px;
     font-size:14px;
     background-color: #fafafa;
 }
 
 .input__box input::placeholder{
     width: 100%;
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 11px;
+    font-weight: 600;
     color: #868686;
-    margin: 3px;
+    margin:  0 5px;
 }
 
 .forgotten__password__container{
@@ -191,6 +193,9 @@ h1{
     text-decoration: none;
     color: rgb(24, 135, 250);
     font-weight: 600;
+}
+.Registrate p{
+    color: #818181;
 }
 
 footer{

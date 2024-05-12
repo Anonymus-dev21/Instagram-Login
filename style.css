@@ -19,7 +19,7 @@
 }
 .preloader__content{
     margin-top: 0px;
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,9 +32,8 @@
     
 }
 .preloader__content__meta{
-    transform: translatey(125px);
+    transform: translatey(200px);
     text-align: center;
-    margin-top: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -45,7 +44,12 @@ iframe{
 }
 @media only screen and (min-width:425px){
     .preloader__content{
-        width: 40%;
+        width: 30%;
+    }
+}
+@media only screen and (min-width:600px){
+    .preloader__content{
+        width: 20%;
     }
 }
 .meta{
@@ -66,7 +70,6 @@ iframe{
 .loginpage{
     display: flex;
     min-height: 100vh;
-    align-items: center;
     justify-content: center;
     text-align: center;
 }
@@ -74,7 +77,6 @@ iframe{
     width: 500px;
     padding: 20px 5px;
     display: flex;
-    align-items: center;
     justify-content: center;
     color:#4e4e4e;
     font-size: 14px;
@@ -83,7 +85,7 @@ h1{
     font-family: "instagramfont";
     letter-spacing: 3px;
     font-size: 45px;
-    margin: 0 0 45px;
+    margin: 30px 0 35px;
     font-weight: 600;
     color: black;
 }
@@ -120,14 +122,17 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .line1{
     height: 1px;
     width: 100%;
     background-color: #686767;
     display: block;
+    box-shadow: #4e4e4e 0px 1px 20px;
 }
 .o{
+    color: #686767;
     font-size: 18px;
     font-weight: 500;
     transform: translateY(-2px);
@@ -137,8 +142,9 @@ h1{
 .line2{
     height: 1px;
     width: 100%;
-    background-color: #686767;
+    background-color: #5e5c5c;
     display: block;
+    box-shadow: #000000 0px 1px 20px;
 }
 
 .input__box{
@@ -147,11 +153,15 @@ h1{
 .input__box input{
     padding: 10px 3px;
     font-size:14px;
+    background-color: #fafafa;
 }
 
 .input__box input::placeholder{
     width: 100%;
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #868686;
+    margin: 3px;
 }
 
 .forgotten__password__container{
@@ -185,11 +195,11 @@ h1{
 
 footer{
     width: 100%;
-    margin-top: 50px;
 }
 .logo{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .logo p{
     text-align: center;
@@ -199,13 +209,14 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .logo span{
     color: transparent;
     font-weight: 700;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .logo p{
     font-size: 10px;
@@ -221,6 +232,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 .box{
     font-size: 12px;

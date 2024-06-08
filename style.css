@@ -217,7 +217,7 @@ footer{
 .logo span{
     color: transparent;
     font-weight: 700;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     background-clip: text;
     margin-bottom: 50px;
 }

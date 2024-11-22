@@ -213,6 +213,7 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
+    transform: translate(0px, -20px);
 }
 .logo span{
     color: transparent;
@@ -220,6 +221,7 @@ footer{
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     background-clip: text;
     margin-bottom: 35px;
+    
 }
 .logo p{
     font-size: 10px;

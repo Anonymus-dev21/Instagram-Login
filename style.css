@@ -71,7 +71,7 @@ iframe{
 
 .loginpage{
     display: flex;
-    min-height: 100vh;
+    min-height: 90vh;
     justify-content: center;
     text-align: center;
 }
@@ -219,7 +219,7 @@ footer{
     font-weight: 700;
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     background-clip: text;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .logo p{
     font-size: 10px;
